@@ -121,11 +121,11 @@ SOFTWARE.
 #define PIN_SPI_SLAVE_SELECT 11
 #define PIN_SPI_CLOCK 12
 
-#define PIN_RSSI_A A6
+#define PIN_RSSI_A A2
 #define PIN_LED_A A0
 #ifdef USE_DIVERSITY
     #define PIN_LED_B A1
-    #define PIN_RSSI_B A7
+    #define PIN_RSSI_B A3
 #endif
 
 #ifdef USE_VOLTAGE_MONITORING
